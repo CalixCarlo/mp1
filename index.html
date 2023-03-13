@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project 1</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="main-topbar">
+    <div class="topbar-container d-flex justify-content-center align-items-center py-2">
+      <div class="row d-flex justify-content-between align-items-center w-100">
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12" id="hiring1">
+           Monday-Sat 8.00-18.00. Sunday CLOSED
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12 text-lg-end text-md-end text-sm-start text-xs-start"  id="hiring2" >
+            Tel. No. (000)-123-456789
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="sidebar"
+      aria-labelledby="sidebar">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebar-title">LOGO</h5>
+        <button
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle"role="button"data-bs-toggle="dropdown"aria-expanded="false">ABOUT US</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="about.html" class="dropdown-item">COMPANY</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item">OUR TEAM</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item">NEWS</a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item">INVESTORS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="./services.html" class="nav-link" aria-current="page">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" aria-current="page">PORTPOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" aria-current="page">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" aria-current="page">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <div class="row justify-content-between align-items-center w-100">
+        <div class="col ms-4">
+          <a href="#" class="navbar-brand">LOGO</a>
+        </div>
+        <div class="col-6">
+          <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav align-items-center me-0">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active" aria-current="page">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="about.html" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">ABOUT US</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="about.html" class="dropdown-item">COMPANY</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">OUR TEAM</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">NEWS</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">INVESTORS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="./services.html" class="nav-link" aria-current="page">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">PORTPOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link" aria-current="page">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-lg-none d-flex justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="banner-container" >
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="./assets/carousel1.jpg" class="d-block w-100" alt="..." > 
+         <div class="carousel-caption ">
+          <h1 class="text-align-left">Innovation</h1>
+          <h3>We Create Oppotunities</h3>
+         </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/carousel2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption "> 
+            <h1 class>Specialize</h1>
+            <h3>Success depends on Work</h3>
+           </div>
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <section class="call-container d-flex justify-content-center align-items-center" id="call-to-action-2">
+    <div class="row d-flex justify-content-center align-items-center mx-lg-4 mx-md-4 mx-sm-4 mx-4">
+      <div class="col-lg-8 col-md-12 my-lg-2 my-md-2 my-sm-2 my-2">
+        <h3 id="call-header">
+          Partner with Business Leaders
+        </h3>
+        <p id="call-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi vel quae quibusdam consequatur voluptatum totam est magnam corrupti incidunt.
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-12 my-lg-2 my-md-2 my-sm-2 my-2">
+        <div>
+          <a href="#" class="btn btn-info btn-outline-dark px-4" id="call-button">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="service-container d-flex justify-content-center align-items-center flex-column w=100" id="service-container">
+    <div class="d-flex justify-content-center align-items-center flex-column pt-5">
+      <h3>OUR SERVICES</h3>
+      <div class="my-lg-2 my-md-2 my-sm-2 my-2 mx-lg-4 mx-md-4 mx-sm-4 mx-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eligendi ea quibusdam porro rem tempore deserunt nesciunt amet ipsa. Est?   
+        </p>
+      </div>
+    </div>
+    <div class="services-inner-container col-9">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <ul >
+            <li>
+              <div class="mb-5 mb-sm-5 d-flex justify-content-center align-items-center flex-column" id="sub-service">
+                <div id="serpic1"> 
+                  <img src="./assets/bell.png" alt="">
+                </div>
+                <div class="text-center mt-3 fs-5 fw-bold">Consulting
+                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, mollitia?</p>
+              </div>
+            </li>
+            <li>
+              <div class="mb-5 d-flex justify-content-center align-items-center flex-column" id="sub-service">
+                <div id="serpic1"> 
+                  <img src="./assets/investment.png" alt="">
+                </div>
+                <div class="text-center mt-3 fs-5 fw-bold">Investment
+                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, mollitia?</p>
+              </div>
+            </li> 
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <ul >
+            <li>
+              <div class="mb-5 d-flex justify-content-center align-items-center flex-column" id="sub-service">
+                <div id="serpic1"> 
+                  <img src="./assets/icons8-strategy-49.png" alt="">
+                </div>
+                <div class="text-center mt-3 fs-5 fw-bold">Strategy
+                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, mollitia?</p>
+              </div>
+            </li>
+            <li>
+              <div class="mb-5 d-flex justify-content-center align-items-center flex-column" id="sub-service">
+                <div id="serpic1"> 
+                  <img src="./assets/icons8-creative-64.png" alt="">
+                </div>
+                <div class="text-center mt-3 fs-5 fw-bold">Creative
+                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, mollitia?</p>
+              </div>
+            </li> 
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <ul >
+            <li>
+              <div class="mb-5 d-flex justify-content-center align-items-center flex-column" id="sub-service">
+                <div id="serpic1"> 
+                  <img src="./assets/bulb.png" alt="">
+                </div>
+                <div class="text-center mt-3 fs-5 fw-bold">Analysis
+                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, mollitia?</p>
+              </div>
+            </li>
+            <li>
+              <div class="mb-4 d-flex justify-content-center align-items-center flex-column" id="sub-service">
+                <div id="serpic1"> 
+                  <img src="./assets/support.png" alt="">
+                </div>
+                <div class="text-center mt-3 fs-5 fw-bold">24/7 Support
+                  </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, mollitia?</p>
+              </div>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-title text-center pt-5 my-3">
+    <h3>
+      OUR ORGANIZATION
+    </h3>
+    <div class="m-auto" id="orgpara">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum cupiditate rem sapiente repellendus inventore architecto, facere dicta est dolores officiis.
+    </div>
+    <div class="organization-inner-container d-flex justify-content-start align-items-center pt-4">
+      <div class="row m-auto pb-5">
+        <div class="col-lg-6 col-sm-12">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur, voluptatibus porro eius eveniet quidem alias possimus minima assumenda quos, unde odio. Ex nostrum ducimus nihil ipsa nesciunt? Adipisci, veritatis.
+          </p>
+          <ol id="organization-list">
+            <li>
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="mx-3" id="orgpic">
+                  <img src="./assets/circle-caret-right.png"   alt="">
+                </div>
+                Lorem ipsum dolor sit amet.
+              </div>
+            </li>
+            <li>
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="mx-3" id="orgpic">
+                  <img src="./assets/circle-caret-right.png" alt="">
+                </div>
+                Lorem ipsum dolor sit amet.
+              </div>
+            </li>
+            <li>
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="mx-3" id="orgpic">
+                  <img src="./assets/circle-caret-right.png" alt="">
+                </div>
+                Lorem ipsum dolor sit amet.
+              </div>
+            </li>
+            <li>
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="mx-3" id="orgpic">
+                  <img src="./assets/circle-caret-right.png" alt="">
+                </div>
+                Lorem ipsum dolor sit amet.
+              </div>
+            </li>
+          </ol>
+          <div class="d-flex justify-content-start align-items-center ms-5">
+            <a href="#" class="btn btn-info btn-outline-dark px-4 text-light" id="organization-button">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-lg-0 mt-md-4 mt-sm-4 mt-4">
+          <img src="./assets/man-image.png" id="man-image"alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="team-container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <img src="./assets/team.jpg" id="man-image"alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-start flex-column">
+        <div class="mx-4 my-lg-3 my-md-3 my-sm-3 my-3">
+          <h2>Our Team</h2>
+          <div class="teamtext-container my-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deleniti in possimus ipsum fugiat error voluptates veniam accusantium, facilis sequi aut totam, modi corporis similique explicabo quidem at sint est?
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nam voluptatum adipisci, quas ullam numquam fugiat, natus neque voluptatibus ad corrupti, explicabo inventore odit magni quod temporibus. Cum, placeat et.
+            </p>
+          </div>
+        <div>
+        </div>
+          <a href="#" class="btn btn-info btn-outline-dark text-light" id="team-button">Our Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <section>
+    <div class="closing-main-container d-flex justify-content-center align-items-start m-4">
+      <div class="row d-flex justify-content-center align-items-start col-10">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+          <h2>
+            Programmes
+          </h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse sint placeat voluptatem omnis blanditiis inventore a, error deleniti! Odio accusamus magni, officiis ab quibusdam illum dolores nisi ipsum placeat tempora. Laboriosam nihil cum maxime hic eum officia enim odio dolor tenetur. Magnam cumque necessitatibus praesentium voluptatum, maxime perferendis voluptatibus!</P>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <h2>Testimonials</h2>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et atque doloribus est! Minus expedita, incidunt doloremque ipsum tempore officia quaerat!
+            </p>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div id="testipic">
+              <img src="./assets/tech director.jpg " id="director-image" alt="">
+            </div>
+           <div>
+            <p class="fs- fw-bold">John Doe<br>Technical Director</p>
+           
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+          <h2>
+            Lastest News
+          </h2>
+          <div class="accordion-container1">
+            <div class="accordion" id="accordion1">
+              <div class="accordion-item" id="accordion-item1">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="accordion-button1">
+                    NEWS#1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion1">
+                  <div class="accordion-body">
+                    <article>
+                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    </article>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#News1">
+                  Read More
+                  </button>
+                  <div class="modal fade" id="News1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">News Headline1</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias aperiam, dolor fugiat esse deleniti, beatae vitae accusamus aut non distinctio nesciunt corporis corrupti, omnis dolorum asperiores perspiciatis illo quasi. Quibusdam, deleniti aliquam officia dolor doloribus neque nobis reiciendis voluptas esse cupiditate laborum quisquam sit perferendis minus laboriosam voluptatibus exercitationem! Nobis, iste. Eum eius rem possimus saepe accusantium vel, quo iure architecto. Vero enim, animi recusandae possimus numquam consequuntur, error autem facilis quos, ea quae accusamus aspernatur perspiciatis. Tempora sapiente dolores repellat repellendus quasi, assumenda veniam reprehenderit eum? Tempora incidunt nulla totam fuga provident facere dolores optio, officia asperiores alias atque!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+          <div class="accordion-container2">
+            <div class="accordion" id="accordion2">
+              <div class="accordion-item" id="accordion-item2">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne" id="accordion-button2">
+                    NEWS#2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion2">
+                  <div class="accordion-body">
+                    <article>
+                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    </article>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#News2">
+                  Read More
+                  </button>
+                  <div class="modal fade" id="News2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">News Headline2</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias aperiam, dolor fugiat esse deleniti, beatae vitae accusamus aut non distinctio nesciunt corporis corrupti, omnis dolorum asperiores perspiciatis illo quasi. Quibusdam, deleniti aliquam officia dolor doloribus neque nobis reiciendis voluptas esse cupiditate laborum quisquam sit perferendis minus laboriosam voluptatibus exercitationem! Nobis, iste. Eum eius rem possimus saepe accusantium vel, quo iure architecto. Vero enim, animi recusandae possimus numquam consequuntur, error autem facilis quos, ea quae accusamus aspernatur perspiciatis. Tempora sapiente dolores repellat repellendus quasi, assumenda veniam reprehenderit eum? Tempora incidunt nulla totam fuga provident facere dolores optio, officia asperiores alias atque!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+          <div class="accordion-container3">
+            <div class="accordion" id="accordion3">
+              <div class="accordion-item" id="accordion-item3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" id="accordion-button3">
+                    NEWS#3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion3">
+                  <div class="accordion-body">
+                    <article>
+                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    </article>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#News3">
+                  Read More
+                  </button>
+                  <div class="modal fade" id="News3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">News Headline3</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias aperiam, dolor fugiat esse deleniti, beatae vitae accusamus aut non distinctio nesciunt corporis corrupti, omnis dolorum asperiores perspiciatis illo quasi. Quibusdam, deleniti aliquam officia dolor doloribus neque nobis reiciendis voluptas esse cupiditate laborum quisquam sit perferendis minus laboriosam voluptatibus exercitationem! Nobis, iste. Eum eius rem possimus saepe accusantium vel, quo iure architecto. Vero enim, animi recusandae possimus numquam consequuntur, error autem facilis quos, ea quae accusamus aspernatur perspiciatis. Tempora sapiente dolores repellat repellendus quasi, assumenda veniam reprehenderit eum? Tempora incidunt nulla totam fuga provident facere dolores optio, officia asperiores alias atque!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+          <div class="accordion-container4">
+            <div class="accordion" id="accordion4">
+              <div class="accordion-item" id="accordion-item4">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" id="accordion-button4">
+                    NEWS#4
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion4">
+                  <div class="accordion-body">
+                    <article>
+                      Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                    </article>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#News4">
+                  Read More
+                  </button>
+                  <div class="modal fade" id="News4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">News Headline4</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias aperiam, dolor fugiat esse deleniti, beatae vitae accusamus aut non distinctio nesciunt corporis corrupti, omnis dolorum asperiores perspiciatis illo quasi. Quibusdam, deleniti aliquam officia dolor doloribus neque nobis reiciendis voluptas esse cupiditate laborum quisquam sit perferendis minus laboriosam voluptatibus exercitationem! Nobis, iste. Eum eius rem possimus saepe accusantium vel, quo iure architecto. Vero enim, animi recusandae possimus numquam consequuntur, error autem facilis quos, ea quae accusamus aspernatur perspiciatis. Tempora sapiente dolores repellat repellendus quasi, assumenda veniam reprehenderit eum? Tempora incidunt nulla totam fuga provident facere dolores optio, officia asperiores alias atque!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer-container d-flex justify-content-center align-items-center">
+    <div class="footer-container col-9 d-flex justify-content-center align-items-center flex-column my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2">
+          <h5>
+            Our Contact
+          </h5>
+          <p>Carlo Company, Inc.<br>
+            JC Main Road, Near Silnile tower<br>
+            Pin-21542 NewYork US.<br>
+          <br>(123) 456-789 - 1255-12584
+          email@domainname.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+          <h5>
+            Quick Links
+          </h5>
+          <a href="#">Latest Events</a><br>
+          <a href="#">Terms and Conditions</a><br>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Career</a><br>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+          <h5>
+            Latest posts
+          </h5>
+          <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+          <a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a><br>
+          <a href="#">Natus error sit voluptatem accusantium doloremque</a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+          <h5>
+            Recent News
+          </h5>
+          <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+          <a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a><br>
+          <a href="#">Natus error sit voluptatem accusantium doloremque</a>
+        </div>
+      </div>
+    </div>
+    </div> 
+  </footer>
+  <div class="sub-footer-container py-4 d-flex justify-content-center align-items-center">
+    <div class="row col-9">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+       <p> © Carlo Company, Inc. 2023 All right reserved</p>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+        <ion-icon class="mx-2" name="logo-facebook"></ion-icon>
+        <ion-icon class="mx-2" name="logo-twitter"></ion-icon>
+        <ion-icon class="mx-2" name="logo-pinterest"></ion-icon>
+        <ion-icon class="mx-2" name="logo-linkedin"></ion-icon>
+        <ion-icon class="mx-2" name="logo-google"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</body>
+</html>
+

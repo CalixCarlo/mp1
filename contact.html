@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <section id="main-topbar">
+        <div class="topbar-container d-flex justify-content-center align-items-center py-2">
+          <div class="row d-flex justify-content-between align-items-center w-100">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12" id="hiring1">
+               Monday-Sat 8.00-18.00. Sunday CLOSED
+              </div>
+              <div class="col-12 col-lg-4 col-md-6 col-sm-12 text-lg-end text-md-end text-sm-start text-xs-start"  id="hiring2" >
+                Tel. No. (000)-123-456789
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="sidebar"
+          aria-labelledby="sidebar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-title">LOGO</h5>
+            <button
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link" aria-current="page">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="about.html" class="nav-link dropdown-toggle"role="button"data-bs-toggle="dropdown"aria-expanded="false">ABOUT US</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="about.html" class="dropdown-item">COMPANY</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">OUR TEAM</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">NEWS</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">INVESTORS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="./services.html" class="nav-link" aria-current="page">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">PORTPOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link active" aria-current="page">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="row justify-content-between align-items-center w-100">
+            <div class="col ms-4">
+              <a href="#" class="navbar-brand">LOGO</a>
+            </div>
+            <div class="col-6">
+              <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav align-items-center me-0">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link" aria-current="page">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="about.html" class="dropdown-item">COMPANY</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">OUR TEAM</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">NEWS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">INVESTORS</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./services.html" class="nav-link" aria-current="page">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="page">PORTPOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="page">PRICING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link-active" aria-current="page">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col d-lg-none d-flex justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+          <div class="contact-container d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12 py-4">
+                    <h2 class="m-auto fw-bolder" id="aboutheader">
+                        Contact
+                    </h2>
+                </div>
+            </div>
+          </div>
+          <div class="container contact-form">
+            <div class="contact-image">
+                <img src="./assets/rocket.png">
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group my-3">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group my-3">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group my-3">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div> 
+                        <div class="form-group my-3">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group my-3">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </div>
+    <footer class="main-footer-container d-flex justify-content-center align-items-center">
+        <div class="footer-container col-9 d-flex justify-content-center align-items-center flex-column my-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2">
+              <h5>
+                Our Contact
+              </h5>
+              <p>Carlo Company, Inc.<br>
+                JC Main Road, Near Silnile tower<br>
+                Pin-21542 NewYork US.<br>
+              <br>(123) 456-789 - 1255-12584
+              email@domainname.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+              <h5>
+                Quick Links
+              </h5>
+              <a href="#">Latest Events</a><br>
+              <a href="#">Terms and Conditions</a><br>
+              <a href="#">Privacy Policy</a><br>
+              <a href="#">Career</a><br>
+              <a href="#">Contact Us</a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+              <h5>
+                Latest posts
+              </h5>
+              <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+              <a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a><br>
+              <a href="#">Natus error sit voluptatem accusantium doloremque</a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+              <h5>
+                Recent News
+              </h5>
+              <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+              <a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a><br>
+              <a href="#">Natus error sit voluptatem accusantium doloremque</a>
+            </div>
+          </div>
+        </div>
+        </div> 
+      </footer>
+      <div class="sub-footer-container py-4 d-flex justify-content-center align-items-center">
+        <div class="row col-9">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+           <p> © Carlo Company, Inc. 2023 All right reserved</p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <ion-icon class="mx-2" name="logo-facebook"></ion-icon>
+            <ion-icon class="mx-2" name="logo-twitter"></ion-icon>
+            <ion-icon class="mx-2" name="logo-pinterest"></ion-icon>
+            <ion-icon class="mx-2" name="logo-linkedin"></ion-icon>
+            <ion-icon class="mx-2" name="logo-google"></ion-icon>
+          </div>
+        </div>
+    </div>
+      <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
