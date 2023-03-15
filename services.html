@@ -4,81 +4,265 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pricing</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-TX9QwUTz1+lEnHbGvfl8gIyLl9/ZfGOmXmPIGx8ehCmF58nGJNz6SITvS8yhKpNkH6U4kXQe4I8cN6YwSKsgPw==" crossorigin="anonymous" />
+    
 </head>
 <body>
-<div>
-      <h3>Our Best Services</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsam molestias fugiat quisquam laudantium ipsum atque ad repellat cumque, nulla accusamus repudiandae accusantium error. Sed expedita rem minus incidunt. Nemo repellendus consectetur quos, dicta deleniti eveniet voluptatum ducimus eos voluptatibus. Debitis numquam natus, esse iure accusamus exercitationem! Ab, esse unde.</p>
-    </div>
-    <div id="col-service">
-      <div class="row w-100">
-        <div class="col 3">
-          <ul>
-            <li>
-              <div id="serpic1">
-                <img src="./assets/bookicon.png" alt="" id="serpic">
+    <section id="main-topbar">
+        <div class="topbar-container d-flex justify-content-center align-items-center py-2">
+          <div class="row d-flex justify-content-between align-items-center w-100">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12" id="hiring1">
+               Monday-Sat 8.00-18.00. Sunday CLOSED
               </div>
-              <h4>Web Designing</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi eveniet, voluptatibus et molestiae nisi? Fuga autem nesciunt facere iure!</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col 3">
-          <ul>
-            <li>
-              <div id="serpic1">
-                <img src="./assets/icons8-e-commerce-66.png" alt="">
+              <div class="col-12 col-lg-4 col-md-6 col-sm-12 text-lg-end text-md-end text-sm-start text-xs-start"  id="hiring2" >
+                Tel. No. (000)-123-456789
               </div>
-              <h4>E-Commerce</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi eveniet, voluptatibus et molestiae nisi? Fuga autem nesciunt facere iure!</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col 3">
-          <ul>
-            <li>
-              <div id="serpic1">
-                <img src="./assets/icons8-best-seller-64.png" alt="">
-              </div>
-              <h4>Quality</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi eveniet, voluptatibus et molestiae nisi? Fuga autem nesciunt facere iure!</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col 3">
-          <ul>
-            <li>
-              <div id="serpic1">
-                <img src="./assets/icons8-mobile-app-64.png" alt="">
-              </div>
-              <h4>Moblie App</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi eveniet, voluptatibus et molestiae nisi? Fuga autem nesciunt facere iure!</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col 3">
-            <ul>
-              <li>
-                <div id="serpic1">
-                  <img src="./assets/icons8-best-seller-64.png" alt="">
-                </div>
-                <h4>Quality</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi eveniet, voluptatibus et molestiae nisi? Fuga autem nesciunt facere iure!</p>
-              </li>
-            </ul>
+            </div>
           </div>
-          <div class="col 3">
-            <ul>
-              <li>
-                <div id="serpic1">
-                  <img src="./assets/icons8-mobile-app-64.png" alt="">
-                </div>
-                <h4>Moblie App</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora excepturi eveniet, voluptatibus et molestiae nisi? Fuga autem nesciunt facere iure!</p>
+        </div>
+      </section>
+      <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="sidebar"
+          aria-labelledby="sidebar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-title">LOGO</h5>
+            <button
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link" aria-current="page">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="about.html" class="nav-link dropdown-toggle"role="button"data-bs-toggle="dropdown"aria-expanded="false">ABOUT US</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="about.html" class="dropdown-item">COMPANY</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">OUR TEAM</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">NEWS</a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown-item">INVESTORS</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="./services.html" class="nav-link" aria-current="page">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link" aria-current="page">CONTACT</a>
               </li>
             </ul>
           </div>
       </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="row justify-content-between align-items-center w-100">
+            <div class="col ms-4">
+              <a href="#" class="navbar-brand">LOGO</a>
+            </div>
+            <div class="col-6">
+              <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav align-items-center me-0">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link" aria-current="page">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="about.html" class="dropdown-item">COMPANY</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">OUR TEAM</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">NEWS</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">INVESTORS</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./services.html" class="nav-link" aria-current="page">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link" aria-current="page">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">PRICING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link" aria-current="page">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col d-lg-none d-flex justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <div class="services-container d-flex justify-content-center align-items-center flex-column">
+            <div class="row">
+                <div class="col-12 py-4">
+                    <h2 class="m-auto fw-bolder">
+                        Services
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container web-design-services py-5">
+          <div class="row">
+            <div class="col-md-8">
+              <h2 class="text-primary mb-4">Web Design Services</h2>
+              <p class="lead mb-4">We specialize in creating clean and modern websites that are easy to use and visually appealing. Our team of expert designers will work with you to create a custom website that meets your unique needs.</p>
+              <ul class="list-unstyled mb-4">
+                <li><i class="fas fa-check text-success mr-2"></i> Responsive Web Design</li>
+                <li><i class="fas fa-check text-success mr-2"></i> Website Redesign</li>
+                <li><i class="fas fa-check text-success mr-2"></i> E-Commerce Websites</li>
+                <li><i class="fas fa-check text-success mr-2"></i> Custom WordPress Themes</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Contact Us</a>
+            </div>
+            <div class="col-md-4 py-5">
+              <img src="./assets/services.bk.jpg" alt="Web Design Services" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title">Web Design</h4>
+                  <p class="card-text">We specialize in designing beautiful and user-friendly websites that are tailored to meet your business needs.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title">Web Development</h4>
+                  <p class="card-text">Our expert developers can create custom solutions to make your website more efficient and effective.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title">SEO Optimization</h4>
+                  <p class="card-text">We can help improve your website's search engine rankings, so that potential customers can easily find you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title">E-commerce Solutions</h4>
+                  <p class="card-text">We can create an online store for your business that is easy to use and navigate, and that helps increase sales.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title">Content Creation</h4>
+                  <p class="card-text">Our content creators can help you develop high-quality content that engages your audience and drives traffic to your website.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title">Social Media Management</h4>
+                  <p class="card-text">We can help you create and manage your social media accounts to help build your brand and reach your target audience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="main-footer-container d-flex justify-content-center align-items-center">
+          <div class="footer-container col-9 d-flex justify-content-center align-items-center flex-column my-4">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2">
+                <h5>
+                  Our Contact
+                </h5>
+                <p>Carlo Company, Inc.<br>
+                  JC Main Road, Near Silnile tower<br>
+                  Pin-21542 NewYork US.<br>
+                <br>(123) 456-789 - 1255-12584
+                email@domainname.com</p>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+                <h5>
+                  Quick Links
+                </h5>
+                <a href="#">Latest Events</a><br>
+                <a href="#">Terms and Conditions</a><br>
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Career</a><br>
+                <a href="#">Contact Us</a>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+                <h5>
+                  Latest posts
+                </h5>
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+                <a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a><br>
+                <a href="#">Natus error sit voluptatem accusantium doloremque</a>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-md-2 py-sm-2 py-2">
+                <h5>
+                  Recent News
+                </h5>
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+                <a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a><br>
+                <a href="#">Natus error sit voluptatem accusantium doloremque</a>
+              </div>
+            </div>
+          </div>
+          </div> 
+        </footer>
+        <div class="sub-footer-container py-4 d-flex justify-content-center align-items-center">
+          <div class="row col-9">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+             <p> © Carlo Company, Inc. 2023 All right reserved</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+              <ion-icon class="mx-2" name="logo-facebook"></ion-icon>
+              <ion-icon class="mx-2" name="logo-twitter"></ion-icon>
+              <ion-icon class="mx-2" name="logo-pinterest"></ion-icon>
+              <ion-icon class="mx-2" name="logo-linkedin"></ion-icon>
+              <ion-icon class="mx-2" name="logo-google"></ion-icon>
+            </div>
+          </div>
+      </div>
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script> 
+        <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 </body>
 </html>

@@ -1,0 +1,92 @@
+body{
+    font-family:sans-serif;  
+}
+
+body p{
+    font-size: small;   
+}
+#main-topbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+}
+.topbar-container{
+    background-color: #444444;
+    min-width:72vw;
+}
+#hiring1, #hiring2{
+    color: white;
+    font-size:small;
+    font-weight: bolder;
+    font-size: 70%;
+}
+@media screen and (min-width:776px){
+    #hiring2{
+        text-align: right;
+    }   
+}
+.navbar{
+    font-size:small;
+    font-weight: bolder;
+}
+.nav-link:hover{
+  color: #00bcd4;
+}
+.pricing-container{
+    background-color: #00bcd4;
+    color: white;
+}
+.main-footer-container{
+    background-color: #333;;
+}
+.footer-container > div > div > h5,h6,a {
+    color:rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+}
+.footer-container > div > div > p{
+    color:rgba(255, 255, 255, 0.78);
+}
+
+.footer-container > div > div > h5 {
+    color:#00bcd4;
+}
+.footer-container > div > div > a:hover{
+    color:#00bcd4;
+}
+.footer-container > div > div > a{
+    text-decoration: none;
+}
+ion-icon {
+    font-size: 1.5rem;
+  }
+ion-icon {
+    color:rgba(255, 255, 255, 0.78);
+    cursor: pointer;
+}
+ion-icon:hover {
+    color:#00bcd4;
+    
+}
+.sub-footer-container{
+    background-color: #252525;
+}
+.sub-footer-container >div > div{
+    color:rgba(255, 255, 255, 0.78);
+}
+button {
+    border: none;
+    color:white;
+    background-color: #00bcd4;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #316a72;
+}
